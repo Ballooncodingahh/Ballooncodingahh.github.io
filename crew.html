@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meet the Crew - BalloonBoi</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      margin: 0;
+      font-family: "Inter", "Poppins", sans-serif;
+      background: linear-gradient(#7ec8e3, #b9f3fc);
+      color: #222;
+    }
+
+    main {
+      flex: 1;
+    }
+
+    header {
+      background-color: #00a2ff;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 40px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    header h1 {
+      font-size: 2rem;
+      margin: 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: 0.2s;
+    }
+
+    nav a:hover {
+      color: #ffd54f;
+    }
+
+    .crew-section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .crew-section h2 {
+      font-size: 2.5rem;
+      color: #fdfdfd;
+      margin-bottom: 30px;
+    }
+
+    .crew-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 25px;
+      width: 90%;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .card {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .card h3 {
+      margin: 15px 0 5px;
+      color: #00a2ff;
+      font-size: 1.5rem;
+    }
+
+    .card p {
+      font-size: 1rem;
+      color: #333;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #00a2ff;
+      color: white;
+      font-size: 0.9rem;
+      box-shadow: 0 -3px 8px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>BalloonBoi</h1>
+    <nav>
+      <a href="homepage.html">Home</a>
+      <a href="episodes.html">Episodes</a>
+      <a href="crew.html">Characters</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+      <a href="login.html">Login</a>
+      <a href="signup.html">Sign Up</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="crew-section">
+      <h2>Characters</h2>
+      <div class="crew-grid">
+        <div class="card">
+          <img src="balloon.jpg" alt="Balloon">
+          <h3>Balloon</h3>
+          <p>The Founder of Balloonanim and the band "Chernozem". He drink sprite instead of water and scared of AI Slop.</p>
+        </div>
+
+        <div class="card">
+          <img src="kiraty.png" alt="Kiraty">
+          <h3>Kiraty</h3>
+          <p>The handsome guitar player and co-founder of Balloonanim and the band "Chernozem". He really likes playing Arena Breakout and Rivals</p>
+        </div>
+
+        <div class="card">
+          <img src="maxnum.png" alt="Max">
+          <h3>Max</h3>
+          <p>The very tall guy obsessed with guitar, metal music, and Arena Breakout. also the co-founder of the band "Chernozem"</p>
+        </div>
+
+        <div class="card">
+          <img src="fusion.png" alt="Fusion">
+          <h3>Fusion</h3>
+          <p>The tech-savvy guy who oftenly to mentioned Ryzen Threadripper and Nvidia RTX Pro 6000. He also like to play Arena of Valor</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 BalloonBoi
+  </footer>
+</body>
+</html>
+

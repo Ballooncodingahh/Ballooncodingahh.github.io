@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eddsworld Gallery</title>
+  <link rel="icon" href="favicon.ico" />
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      margin: 0;
+      font-family: "Inter", "Poppins", sans-serif;
+      background: linear-gradient(#7ec8e3, #b9f3fc);
+      color: #222;
+    }
+
+    header {
+      background-color: #00a2ff;
+      padding: 15px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      flex: 1;
+      padding: 30px;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+      font-size: 2.2rem;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      justify-items: center;
+    }
+
+    .gallery img {
+      width: 100%;
+      max-width: 350px;
+      border-radius: 10px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #00a2ff;
+      color: white;
+      font-size: 0.9rem;
+      box-shadow: 0 -3px 8px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="homepage.html">Home</a>
+      <a href="crew.html">Characters</a>
+      <a href="episodes.html">Episodes</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+      <a href="login.html">Login</a>
+      <a href="signup.html">Sign Up</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Gallery</h1>
+    <p>Explore moments and fan art inspired by BalloonBoi!</p>
+
+
+    <div class="gallery">
+      <figure>
+        <img src="balloon.jpg" alt="Balloon" />
+        <figcaption>Balloon – the sprite-loving animator and leader of the gang!</figcaption>
+      </figure>
+
+      <figure>
+        <img src="kiraty.png" alt="Kiraty" />
+        <figcaption>Kiraty – the handsome guitarist with too much aura (or maybe just luck?)</figcaption>
+      </figure>
+
+      <figure>
+        <img src="maxnum.png" alt="Max" />
+        <figcaption>Max – the very tall guy guitarist/bassist with no money to buy more stocks</figcaption>
+      </figure>
+
+      <figure>
+        <img src="fusion.png" alt="Fusion" />
+        <figcaption>Fusion – the mysterious one with Thinkpad in his backpack</figcaption>
+      </figure>
+
+      <figure>
+        <img src="group.png" alt="Group" />
+        <figcaption>The whole gang together – chaos guaranteed!</figcaption>
+      </figure>
+
+      <figure>
+        <img src="fanart.png" alt="Fan Art" />
+        <figcaption>Fan art by the community!</figcaption>
+      </figure>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 BalloonBoi
+  </footer>
+</body>
+</html>

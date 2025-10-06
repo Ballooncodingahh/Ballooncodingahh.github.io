@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BalloonBoi Login Page</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style>
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg'); 
+    background-size: cover;                  
+    background-position: center;             
+    background-repeat: no-repeat;            
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  </style>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f0f2f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .login-container {
+      background: white;
+      padding: 50px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      text-align: center;
+    }
+
+    .login-container h2 {
+      margin-bottom: 20px;
+    }
+
+    .login-container input {
+      width: 90%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .login-container button {
+      width: 95%;
+      padding: 10px;
+      background-color: #00a2ff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .login-container button:hover {
+      background-color: #00a2ff;
+    }
+
+    .login-container p {
+      font-size: 14px;
+      color: #555;
+    }
+
+    .login-container a {
+      color: #00a2ff;
+      text-decoration: none;
+    }
+
+    .login-container a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <h2>Login Into Our Website</h2>
+    <p>Login into our website to gain more access and features!</p>
+    <form action="#" method="post">
+      <input type="text" name="username" placeholder="Username / Email Address / Phone Number" required><br>
+      <input type="password" name="password" placeholder="Password" required><br>
+      <button type="submit">Login</button>
+    </form>
+    <p>Don’t have an account? <a href="signup.html">Sign up here!</a></p>
+    <a href="forgot_password.html">Forget Your Password?</a>
+  </div>
+</body>
+</html>
