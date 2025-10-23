@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BalloonBoi Artwork</title>
+  <link rel="icon" href="favicon.ico" />
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      margin: 0;
+      font-family: "Inter", "Poppins", sans-serif;
+      background: linear-gradient(#7ec8e3, #b9f3fc);
+      color: #ffffff;
+    }
+
+    header {
+      background-color: #00a2ff;
+      padding: 15px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      flex: 1;
+      padding: 30px;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 10px;
+      font-size: 2.2rem;
+    }
+
+    p.intro {
+      font-size: 1rem;
+      margin-bottom: 30px;
+    }
+
+    .art-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .art {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .art:hover {
+      transform: scale(1.03);
+    }
+
+    .art img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .art-info {
+      padding: 15px;
+      background-color: #00a2ff;
+      color: white;
+      text-align: left;
+    }
+
+    .art-info h2 {
+      margin: 0;
+      font-size: 1.2rem;
+    }
+
+    .art-info p {
+      margin-top: 5px;
+      font-size: 0.9rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #00a2ff;
+      color: white;
+      font-size: 0.9rem;
+      box-shadow: 0 -3px 8px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="homepage.html">Home</a>
+      <a href="crew.html">Characters</a>
+      <a href="episodes.html">Episodes</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="comic.html">Comics</a>
+      <a href="artwork.html">Artwork</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="login.html">Login</a>
+      <a href="signup.html">Sign Up</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>BalloonBoi Artwork</h1>
+    <p class="intro">A showcase of special artwork that did not released in Instagram</p>
+
+    <div class="art-container">
+      <div class="art">
+        <img src="artword(SpecialforWeb).png" alt="Balloonboiart">
+        <div class="art-info">
+          <h2>Balloon Met Color</h2>
+          <p>Balloon meet color and he is very scared of it.</p>
+        </div>
+      </div>
+
+      <div class="art">
+        <img src="background1.jpg" alt="Balloonboiartt">
+        <div class="art-info">
+          <h2>Scrapped Login Image</h2>
+          <p>A Scrapped Login Background Image Which it ment to be.</p>
+        </div>
+      </div>
+
+      <div class="art">
+        <img src="Biatch!.png" alt="Matt Artwork 1">
+        <div class="art-info">
+          <h2>MSPaint Test</h2>
+          <p>A random PSA Poster that i drawed in MSPaint</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 BalloonBoi
+  </footer>
+</body>
+</html>
+
